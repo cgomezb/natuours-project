@@ -1,0 +1,23 @@
+{
+  "name": "natuours-project",
+  "version": "1.0.0",
+  "description": "Learning CSS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgomezb/natuours-project.git"
+  },
+  "author": "Cesar Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgomezb/natuours-project/issues"
+  },
+  "homepage": "https://github.com/cgomezb/natuours-project#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
